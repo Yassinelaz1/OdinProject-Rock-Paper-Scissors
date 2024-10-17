@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Kanit?stroke=Sans+Serif">
+    <link rel="stylesheet" href="styles.css">
+    <title>RPS</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class="choices">
+        <button class="magnetic" onclick="play('👊')">👊</button>
+        <button class="magnetic" onclick="play('🖐')">🖐</button>
+        <button class="magnetic" onclick="play('✌')">✌</button>
+        
+    </div>
+    <div id="playerchoice">YOU: </div>
+    <div id="computerchoice">COMPUTER: </div>
+    <div id="displayresult"></div>
+
+    <div class="score">Your score:
+        <span id="Pscore">0</span>
+    </div>
+
+    <div class="score">Computer:
+        <span id="Cscore">0</span>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
